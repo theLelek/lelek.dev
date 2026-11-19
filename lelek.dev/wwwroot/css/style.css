@@ -1,6 +1,6 @@
 body {
-    background-color: #2e3440;
-    color: #d8dee9;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
     min-height: 100vh;
     font-family: "Courier New";
     font-size: 12pt;
@@ -38,9 +38,9 @@ body {
 }
 
 a {
-    color: rgb(126, 146, 162);
+    color: #89b4fa;
 }
 
 a:hover {
-    color: lightskyblue;
+    color: #b4befe;
 }
