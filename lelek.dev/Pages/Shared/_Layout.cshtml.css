@@ -1,6 +1,22 @@
-﻿header {
+﻿
+/* navigation */
+
+.nav-list-top {
     margin-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 2em;
+
+    display: flex;
+    gap: 20px;
 }
+
+.nav-list-top li, .nav-list-bottom li{
+    display: inline;
+    margin-right: 1em;
+}
+
+/* bottom */
 
 footer {
     text-align: center;
@@ -8,4 +24,12 @@ footer {
 
 footer nav ul {
     list-style-type: none;
+}
+
+#theme-toggle {
+    cursor: pointer; /* changes cursor */
+}
+
+#theme-toggle-li {
+    margin-left: auto;
 }

@@ -15,6 +15,11 @@
         <ul class="nav-list-top">
             <li><a href="/home">/home</a></li>
             <li><a href="/html/posts.html">/posts</a></li>
+            <li id="theme-toggle-li">
+                <div id="theme-toggle" type="button" aria-label="Change theme">
+                    <i data-lucide="palette"></i>
+                </div>
+            </li>
         </ul>
     </nav>
     <hr>
@@ -35,8 +40,14 @@
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
 
 @await RenderSectionAsync("Scripts", required: false)
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
 </body>
 </html>

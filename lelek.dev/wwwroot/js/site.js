@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿function changeTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
 
-// Write your JavaScript code.
+    if (currentTheme === "white") {
+        document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+        document.documentElement.setAttribute("data-theme", "white");
+    }
+}
+
+const themeToggleButton = document.getElementById("theme-toggle");
+
+themeToggleButton.addEventListener("click", changeTheme);
