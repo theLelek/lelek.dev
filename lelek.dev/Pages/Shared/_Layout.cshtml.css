@@ -3,7 +3,6 @@
 
 .nav-list-top {
     margin-top: 40px;
-    padding-bottom: 10px;
     padding-left: 10px;
     font-size: 2em;
 
@@ -16,8 +15,16 @@
     margin-right: 1em;
 }
 
-/* bottom */
+/* top */
+header {
+    margin-bottom: 20px;
+}
 
+#header-hr {
+    margin-bottom: 0;
+}
+
+/* bottom */
 footer {
     text-align: center;
 }
@@ -32,4 +39,8 @@ footer nav ul {
 
 #theme-toggle-li {
     margin-left: auto;
+}
+
+#footer-hr {
+    margin-top: 0;
 }
